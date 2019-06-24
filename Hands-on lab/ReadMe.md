@@ -1,42 +1,48 @@
-Locally tested preparation steps:
+* Locally tested preparation steps:
 
-Containers and DevOps - Developer edition 
+## Containers and DevOps - Developer edition 
 https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps%20-%20Developer%20edition.md#exercise-1-create-and-run-a-docker-application
 
-Exercise 1: Create and run a Docker application
+### Exercise 1: Create and run a Docker application
 
 (Step 12 of Task 7)
 
-- Pre-requisites:
-1. Azure Subscription
+- ** Pre-requisites ** :
+1. ** Azure Subscription **
 
-2. Create Ubuntu VM on Azure:
+2. ** Create Ubuntu VM on Azure **:
  - Ubuntu 16.04 LTS
  - Extended OS Disk: 30GB -> 128GB
 
-3. Connect to VM using terminal emulator and install dependecy modules:
+3. ** Connect to VM using terminal emulator and install dependecy modules **:
 
-    
+<code>
   curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
   sudo apt install docker.io mongodb-clients npm nodejs-legacy
   sudo npm install -g bower
   curl -L https://github.com/docker/compose/releases/download/1.24.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
   chmod +x /usr/local/bin/docker-compose
+</code>
 
-4. Make "source" directory under home folder and change directory to it.:
+4. ** Make "source" directory under home folder and change directory to it **:
 
+<code>
   mkdir ~/source
   cd ~/source
+</code>
 
-5. Copy Lab file to local folder :
+5. ** Copy Lab file to local folder ** :
 
+<code>
   curl -L -o FabMedical.tgz http://bit.ly/2uhZseT
+</code>
 
-6. Extract contents using following command:
+6. ** Extract contents using following command **:
 
+<code>
   tar ztvf FabMedical.tar.gz
-
-7. Change directory to ~/source/FabMedical/content-init:
+</code>
+7. ** Change directory to ~/source/FabMedical/content-init **:
 
   cd ~/source/FabMedical/content-init
 
