@@ -1,5 +1,8 @@
 * Locally tested preparation steps:
 
+Lab result URL
+http://52.141.23.93:3000/sessions.html
+
 ## Containers and DevOps - Developer edition 
 https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20lab/HOL%20step-by-step%20-%20Containers%20and%20DevOps%20-%20Developer%20edition.md#exercise-1-create-and-run-a-docker-application
 
