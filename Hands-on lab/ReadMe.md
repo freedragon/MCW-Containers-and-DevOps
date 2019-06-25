@@ -54,7 +54,7 @@ https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20la
 6. **Extract contents using following command** :
 
 <pre><code>
-  tar ztvf FabMedical.tar.gz
+  tar zxf FabMedical.tar.gz
 </code></pre>
 
 7. **Change directory to ~/source/FabMedical/content-init** :
