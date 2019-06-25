@@ -64,3 +64,11 @@ https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20la
 </code></pre>
 
 8.  **Reconnect to VM**
+
+9. **Upgrade node.js to v8.16.0**:
+
+<pre><code>
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+</code></pre>
+
