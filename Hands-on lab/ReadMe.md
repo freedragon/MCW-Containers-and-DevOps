@@ -72,3 +72,19 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 </code></pre>
 
+**ETC Error**
+
+###Exercise 1, Task 6, Step 17###
+
+<pre><code>
+cd ~/source/FabMedical
+vi docker-compose.yml
+</code></pre>
+
+###Exercise 1, Task 6, Step 24###
+
+<pre><code>
+ls ~/source/FabMedical/data/
+</code></pre>
+
+
