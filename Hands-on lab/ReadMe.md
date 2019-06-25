@@ -13,6 +13,14 @@ https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20la
 ## - Pre-requisites:
 1. **Azure Subscription**
 
+  Azure 무료 계정 신청
+  https://azure.microsoft.com/ko-kr/free/
+
+  무료 계정 사용시 주의 사항
+  https://docs.microsoft.com/ko-kr/azure/billing/billing-avoid-charges-free-account
+
+  Azure 체험 계정은 처음 30일 동안 $200의 Azure 크레딧과 12개월 동안 무료 서비스라는 제한된 수량을 제공합니다. 자세한 내용은 Azure 체험 계정을 참조하세요. 크레딧 상태에 따라 크레딧을 사용하거나 체험 서비스 및 수량을 초과한 사용량에 대한 요금이 청구될 수 있습니다.
+
 2. **Create Ubuntu VM on Azure** :
  - Ubuntu 16.04 LTS
  - Extended OS Disk: 30GB -> 128GB
