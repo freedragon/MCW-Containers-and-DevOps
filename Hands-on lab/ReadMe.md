@@ -74,14 +74,14 @@ sudo apt-get install -y nodejs
 
 **ETC Error**
 
-###Exercise 1, Task 6, Step 17###
+### Exercise 1, Task 6, Step 17 ###
 
 <pre><code>
 cd ~/source/FabMedical
 vi docker-compose.yml
 </code></pre>
 
-###Exercise 1, Task 6, Step 24###
+### Exercise 1, Task 6, Step 24 ###
 
 <pre><code>
 ls ~/source/FabMedical/data/
