@@ -35,7 +35,7 @@ https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20la
   sudo apt install docker.io mongodb-clients npm nodejs-legacy
   sudo npm install -g bower
   curl -L https://github.com/docker/compose/releases/download/1.24.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-  chmod +x /usr/local/bin/docker-compose
+  sudo chmod +x /usr/local/bin/docker-compose
 </code></pre>
 
 4. **Make "source" directory under home folder and change directory to it** :
