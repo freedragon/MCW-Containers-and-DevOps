@@ -57,8 +57,10 @@ https://github.com/microsoft/MCW-Containers-and-DevOps/blob/master/Hands-on%20la
   tar zxf FabMedical.tar.gz
 </code></pre>
 
-7. **Change directory to ~/source/FabMedical/content-init** :
+7. **Add user to docker group** :
 
 <pre><code>
-  cd ~/source/FabMedical/content-init
+  sudo usermod -aG docker $USER
 </code></pre>
+
+8.  **Reconnect to VM**
